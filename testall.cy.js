@@ -22,3 +22,5 @@ cy.contains('Place Order').click()
     })
 
 })
+
+

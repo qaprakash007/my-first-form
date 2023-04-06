@@ -8,16 +8,9 @@ describe('form', function(){
     cy.get('#opentab').invoke('removeAttr','target')// .removeattir attribute using Jquery 
         //Navigating browser  controls(Forword / backword)
     cy.url().should('include','/AutomationPractice')
+    //will go to previous page
     cy.go('back')
+    cy.go('forward')
     
-
-
-
-
-
-
-
-
-
     })
 })
