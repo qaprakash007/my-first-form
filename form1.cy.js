@@ -11,8 +11,7 @@ describe('form',function(){
         //selecting multiple checkbox
         cy.get('input[type="checkbox"]').check(['option2','option3'])
         //Static Dropdown
-       // cy.get('select').select('option2').should('have.value','option2')
-
+       cy.get('select').select('option2').should('have.value','option2')
         //dynamic Dropdowm
         // cy.get('#autocomplete').type('ind')
 
@@ -53,3 +52,4 @@ describe('form',function(){
         
     })
 })
+
