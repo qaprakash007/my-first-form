@@ -10,6 +10,7 @@ describe('form', function(){
     cy.url().should('include','/AutomationPractice')
     //will go to previous page
     cy.go('back')
+    //going to forword page ----
     cy.go('forward')
     
     })
