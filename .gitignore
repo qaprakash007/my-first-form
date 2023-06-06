@@ -1,0 +1,9 @@
+node_modules
+/cypress/videos/*
+app
+logs
+*.zip
+.DS_Store
+screenshots
+reports
+.vscode

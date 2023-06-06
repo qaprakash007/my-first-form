@@ -1,0 +1,16 @@
+{
+  "name": "frame",
+  "version": "1.0.0",
+  "description": "begin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "pra",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
